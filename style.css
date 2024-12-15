@@ -1,0 +1,145 @@
+/* General Reset */
+body, h1, h2, p, ul, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Wrapper */
+.wrapper {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 24px;
+    color: #2c3e50;
+}
+
+.header p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+/* Form Section */
+.form-section {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+form button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #353535;;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: purple;
+}
+
+.user-list-section h2 {
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+#user-list {
+    list-style: none;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    background: #f4f4f4;
+    border-radius: 6px;
+}
+
+.user-item span i {
+    margin-right: 8px;
+    color: #3498db;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.user-item button i {
+    margin-right: 5px;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.user-item:last-child {
+    margin-bottom: 0;
+}
+
+.user-item button {
+    border: none;
+    padding: 6px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.user-item .edit-btn {
+    background: chocolate;
+    color: white;
+}
+
+.user-item .delete-btn {
+    background:  #990011;
+    color: white;
+}
+
+.user-item .edit-btn:hover {
+    opacity: 0.8;
+  background-color: blueviolet;
+}
+
+.user-item .delete-btn:hover {
+    background: #97BC62;;
+    color:  black;
+}
